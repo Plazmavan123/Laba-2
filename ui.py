@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 
 class ToDoUI:
-    def init(self, root, task_manager):
+    def __init__(self, root, task_manager):
         self.root = root
         self.root.title("To-Do List")
         self.task_manager = task_manager

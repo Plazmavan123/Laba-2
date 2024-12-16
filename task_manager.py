@@ -1,5 +1,5 @@
 class TaskManager:
-    def init(self):
+    def __init__(self):
         # Хранение задач в списке
         self.tasks = []
 
